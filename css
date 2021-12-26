@@ -1,0 +1,93 @@
+/* Dropdown Button */
+.dropbtn {
+    background-color: #04AA6D;
+    color: rgba(47, 170, 226, 0.781);
+    padding: 16px;
+    font-size: 12px;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    float: right;
+    background-color: #1c664a;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    text-align: end;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+  .Box{
+      margin: 50px;
+      padding: auto;
+      text-align: inherit;
+     
+    }
+    .collapse navbar-collapse{
+        text-align: center;
+        position: relative;
+    }
+    .Box1{
+        text-align: center;
+        position: relative;
+        right: inherit;
+    }
+    .avatar {
+        vertical-align: middle;
+        width: 250px;
+        height: 250px;
+        border-radius: 250%;
+        align-content: space-between;
+      }
+
+      .text{
+        text-align: justify;
+      }
+
+      footer {
+        text-align: center;
+        padding: 3px;
+        background-color: gray;
+        color: white;
+        width: inherit;
+        
+        
+        
+      }
+
+      .home{
+        text-align: justify;
+        
+      }
+
+      .address{
+        text-align: justify;
+      }
+      .col{
+        max-width: inherit;
+      }
+      
